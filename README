@@ -1,0 +1,101 @@
+
+[ProductName] [Version#] Readme
+
+[Month] [Year]
+
+Thank you for using [ProductName], version [Version#]. The readme contains the following main sections:
+
+    Installation
+    System requirements
+    Software support
+    Device support
+    Upgrade and compatibility issues
+    New features
+    Fixed issues
+    Contact Support
+
+Installation
+
+This section documents installation instructions for [ProductName].
+
+    [Step 1]
+    [Step 2]
+    [Step 3]
+    [Step ...]
+
+System Requirements
+System Use 	RAM 	Processor
+Development 	1 GB 	Pentium IV or later
+Deployment 	256 MB 	Pentium III/Celeron 600 MHz or Equivalent
+Software Support in [ProductName]
+Operating System Support
+
+The following operating systems are supported in [ProductName] [Version#]:
+
+    Windows 7 (32-bit and 64-bit)
+    Windows Vista Business edition (32-bit and 64-bit)
+    Windows XP, Service Pack 2 or greater
+    Windows Server 2003 R2 (32-bit)
+    Windows Server 2008 R2 (64-bit)
+
+Note  [Support for Windows Server 2003 R2 may require ...]
+Caution  [Caution text]
+
+[ProductName] [Version#] supports Phar Lap only with the LabVIEW Real-Time Module 8.5 and later.
+
+To find and download an earlier version of [ProductName] [Version#] that supports other operating systems, refer to [link to older versions].
+NI Application Software Support
+
+The following table lists the NI application software versions supported by [ProductName] [Version#].
+NI Application Software 	Versions Supported by [ProductName] [Version#]
+LabVIEW 	8.5.x, 8.6.x, 2009, and 2010
+LabVIEW Real-Time Module 	8.5.x and later (including 2009 and later)
+Device Support in [ProductName]
+
+The following lists detail the devices supported in [ProductName].
+
+    [Device]
+    [Device]
+    [Device]
+
+Upgrade and Compatibility Issues
+
+This section covers changes in [ProductName] functionality.
+[Upgrade Issue Heading]
+
+[Description of known upgrade issue included recommended workaround.]
+New Features Added in [ProductName] [Version#]
+
+The following features were added in [ProductName] [Version#]:
+
+    [Feature 1]
+    [Feature 2]
+    [Feature 3]
+    [Feature 4]
+
+Fixed Issues
+
+The following issues were fixed in [ProductName] [Version#]
+Issue ID 	Summary
+[#] 	[Summary Text]
+[#] 	[Summary Text]
+[#] 	[Summary Text]
+Contact Support
+
+You can contact our support staff by one of the following:
+
+Telephone: [Telephone number and hours of operation]
+
+Email: [Support email address and expected response time]
+
+Community Forums: [link to community forums or NI Community page and expected response time]
+Copyright
+
+[Copyright text]
+Trademarks
+
+[Trademarks text]
+Patents
+
+[Patents text]
+
