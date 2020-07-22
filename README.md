@@ -1,7 +1,7 @@
 
 # xTimeCard
 a LibreOffice based software for time billing and project management
-
+![dashboard](Manual/xTimeCard_files/pasted_image.png)
 
 ## Purpose
 This application does not pretend to fulfill accounting requirements, it helps IT or business consulting firms to manage their projects and bill effectively by week or month; in other words for a managers and project managers to be paid for their team's work and achievements.
