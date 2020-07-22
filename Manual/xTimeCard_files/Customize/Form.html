@@ -1,0 +1,281 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Form</title>
+    
+	<meta name="generator" content="Zim 0.62 & the Ecodiv-responsive template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,greek,latin-ext' rel='stylesheet' type='text/css'>
+    <script type='text/javascript' src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+    <script type='text/javascript' src="../_resources/script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../_resources/style.css" type="text/css">
+    <link rel="stylesheet" media="screen and (min-width: 1600px)" href="../_resources/style1.css" type="text/css">
+    <link rel="stylesheet" media="screen and (max-width: 1600px) and (min-width:1000px)" href="../_resources/style2.css" type="text/css">
+    <link rel="stylesheet" media="screen and (max-width: 999px) and (min-width:750px)" href="../_resources/style3.css" type="text/css">
+    <link rel="stylesheet" media="screen and (max-width: 750px)" href="../_resources/style4.css" type="text/css">      
+</head>
+<body>    
+	<div class="wrapper">
+ 
+    <!--Collapsable menu-->    
+        <div id="taskbar" style="color:#3D6E0F; font-weight:500;">
+            <div id="menuicon">
+                <a href="#" class="toggler" style="color:#CE5C00; text-decoration:none; line-height: 2em;"><img src="../_resources/menu.png" height="19" alt="Menu"></a> 
+            </div>
+            <div id="list">
+                <div id="navigation">
+                    <!-- To add additional links above the navigation menu, replace the link below with your link and remove comment tags
+                    If you do, you may want to remove the extra line above the index -->
+                    <!-- <p style="padding-left:20px; margin-bottom:0px"><a href="http://yourURL.html">Home</a></p> -->
+                    <p></p>
+                    <ul>
+<li><a href="../Customize.html" title="Customize" class="page">Customize</a>
+<ul>
+<li><a href="./Code.html" title="Code" class="page">Code</a></li>
+<li><b>Form</b></li>
+<li><a href="./Guide.html" title="Guide" class="page">Guide</a></li>
+<li><a href="./Query.html" title="Query" class="page">Query</a></li>
+<li><a href="./Requirements.html" title="Requirements" class="page">Requirements</a></li>
+<li><a href="./Tables.html" title="Tables" class="page">Tables</a></li>
+</ul>
+</li>
+<li><a href="../Introduction.html" title="Introduction" class="page">Introduction</a></li>
+<li><a href="../Set-up.html" title="Set-up" class="page">Set-up</a></li>
+<li><a href="../Usage.html" title="Usage" class="page">Usage</a></li>
+</ul>
+
+                    <p></p>
+                    <!-- Warning message if java script is disabled -->
+                    <noscript>
+                        <div style="padding: 10px">
+                            <span style="color:#D48D8D"><p>Please note</p>
+                            <p>To hide the menu</p>
+                            <p>you need to enable</p>
+                            <p>Java script</p></span>
+                        </div>
+                    </noscript>
+                </div>
+            </div>
+        </div>
+        <div id="block">
+            <div id="content">
+            
+                <!-- You may want to replace the image below (but you are welcome to use it if you like) -->
+                <img src="../_resources/header_1.png" width=100% alt="Header">
+                <br>
+                <h1>Form <a name='Home:Software:xTimeCard:Customize:Form'></a></h1>
+                
+                <p>
+Created sabato 21 febbraio 2015
+</p>
+
+<h2>Forms template</h2>
+
+<p>
+To create an application in <a href="" title="LibreOffice" class="page">LibreOffice</a> Base you need to learn to operate with forms. Move to the forms view and create a nice looking template. <br>
+<img src="./Form/pasted_image002.png">
+</p>
+
+<h3>MainForm</h3>
+
+<p>
+Always create a MainForm which may contain other sub-forms connected, this also allows to have master-detail interface, this is clearly explained in the Base Handbook. <br>
+<img src="./Form/pasted_image.png">  <img src="./Form/pasted_image001.png">
+</p>
+
+<h4>Empty form</h4>
+
+<p>
+Select forms view and click on “Create Form in Design View”, click on “Form Navigator” to add to our new empty form other two forms called “MainForm” and “ListForm”. Right click on “Properties” of the “MainForm” and connect data to table “_test”, repeat for “ListForm” and connect to table “_test_Customers”.
+</p>
+
+<h3>Data operations</h3>
+
+<p>
+For both forms do not show “navigation Bar” and for “ListForm” deactivate also other operations to data.<br>
+<img src="./Form/pasted_image003.png">  <img src="./Form/pasted_image004.png">
+</p>
+
+<h4>Add fields</h4>
+
+<p>
+Click on the “Add Field” and add all available fields beside “ID” from “_test” table, don't worry about type because you may change with right click selecting “Replace with”. <br>
+Now your form should look similar to this, add a “Navigation Bar” from “More controls” and customize like our example. Set width property to larger value like 5,70” and height to 0,39”.
+</p>
+
+<p>
+<img src="./Form/pasted_image005.png">  <img src="./Form/pasted_image006.png">
+</p>
+
+<h4>Navigation bar</h4>
+
+<p>
+Look for “More Controls” to a navigation bar, style properly with white background, no frame and hide filter/search.
+</p>
+
+<p>
+<img src="./Form/pasted_image007.png">  <img src="./Form/pasted_image008.png">
+</p>
+
+<p>
+For this tutorial we set our forms with first line as a name/description of the master data,  the second line as navigation bar. <br>
+<img src="./Form/pasted_image009.png">
+</p>
+
+<p>
+Now save and give the name “_test”, double click to run.
+</p>
+
+<h4>Colors</h4>
+
+<p>
+Add your favorite colors from menu Options → Options, for this tutorial add  the color rgb 52,152,219 and rbg 34,104,147 and give a name to remember and use later on.<br>
+<img src="./Form/pasted_image010.png">
+</p>
+
+<h4>Background</h4>
+
+<p>
+Our form looks nice but let's change the background of the page, from menu Format → Page → Background and select your previously created light blue color. <br>
+<img src="./Form/pasted_image011.png">
+</p>
+
+<p>
+Activate the drawing toolbar from menu View → Toolbars → Drawing.<br>
+<img src="./Form/pasted_image012.png">
+</p>
+
+<p>
+Now draw a white rectangle and send to background, this will be the main content area. Repeat on the top to create a header with the darker blue color previously created. From menu Insert → Image add your favorite logo, re-size properly to fit the header.  Add a label, enlarge font and set color to white write “Form Title”, center it. To complete the style of the form,  set “Icons” of navigation bar to large, hide “Sort”, change  background of each field to “Gray 2” and deactivate frame border.<br>
+<img src="./Form/pasted_image013.png">
+</p>
+
+<h4>Anchor</h4>
+
+<p>
+As you may expect, pay attention when you deploy controls in the form; just like a word processor or a web page these controls need to be placed with an anchor. Remember to anchor properly, start with a wider anchor like “Page” and pay attention to the position X and Y.
+</p>
+
+<h4>List-box</h4>
+
+<p>
+Right click “Key1ID”, ungroup (separate from the label) and replace the text field control with a listbox. <br>
+<img src="./Form/pasted_image014.png">
+</p>
+
+<p>
+Right click and select “Replace with” and choose “List Box”, again right click and select “Control” to change properties. <br>
+<img src="./Form/pasted_image015.png">
+</p>
+
+<h4>Drop-down list</h4>
+
+<p>
+Activate drop-down and go to tab “Data” to create SQL query to list from table “Countries”. <br>
+<img src="./Form/pasted_image016.png">
+</p>
+
+<h4>SQL to list content</h4>
+
+<p>
+Move to data to create a SQL query to list available projects. You may simply choose SQL and add this code:<br>
+<div style='padding-left: 30pt'>
+<tt>SELECT "Country", "CountryID" FROM "Countries" ORDER BY "Country" ASC</tt>
+</div>
+<img src="./Form/pasted_image017.png">
+</p>
+
+<p>
+Run your form and check the list box to properly show the name of all countries but  save the “CountryID” in the “_test” table. <br>
+<img src="./Form/pasted_image018.png">
+</p>
+
+<h4>Check record value</h4>
+
+<p>
+Click on “Save” button and go to “tables” and look into the table, for instance “Italy” is record 22.<br>
+<img src="./Form/pasted_image019.png">
+</p>
+
+<p>
+For this template we are almost done, next we will add a grid and connection between sub-forms (master-detail interface).
+</p>
+
+<h4>Grid</h4>
+
+<p>
+Drag a “Grid” control from the “More controls” dialog to our template form, draw a square in the lower frame. Pay attention to have your grid below “ListForm”, check in the “Navigator” or drag to set the proper level. <br>
+<img src="./Form/pasted_image020.png">
+</p>
+
+<p>
+Right click on the control form the “Navigator” and select “Properties”. Set a nice “Gray1” background, give a flat appearance and call it “Grid1”. When you run your form, the list of your customers will be shown, for this tutorial review the sample data.<br>
+<img src="./Form/pasted_image021.png">
+</p>
+
+<p>
+To columns to the grid, right click on the header and choose to insert “Text Box” connected to the fields “Company”, “Name”, “Email” and “Taxcode”.<br>
+<img src="./Form/pasted_image022.png">
+</p>
+
+<p>
+Save, run and see your customers shown in the grid, for this tutorial we would to connect the field “Key2ID” to this grid (therefore we will see only one row).
+</p>
+
+<h2>Master-detail interface</h2>
+
+<p>
+To learn on how to connect a form to a sub-form and create the master-detail relation, let's start by opening the form “Navigator” and move the “ListFrom” under the “MainForm”.<br>
+<img src="./Form/pasted_image023.png">  <img src="./Form/pasted_image024.png">
+</p>
+
+<h3>Set relation</h3>
+
+<p>
+Right click for properties and set the relation between the tables “_test” and “_test_Customers” by linking field “Key2ID” to field “CustomerID”.<br>
+<img src="./Form/pasted_image025.png">
+</p>
+
+<h4>Review</h4>
+
+<p>
+Save and run your form, notice now the grid shows only the proper customer record.<br>
+<img src="./Form/pasted_image026.png">
+</p>
+
+<p>
+Now your form template looks nice, generally speaking the upper right may contain important information as our attention is often driven by “Z”. 
+</p>
+
+<p>
+<span class="zim-tag">@base</span> <span class="zim-tag">@xtimecard</span> <span class="zim-tag">@customize</span>
+</p>
+
+
+                <br>
+                <span class="backlinks">
+                    <hr class='footnotes'>
+                    <b>Backlinks:</b>
+                    <br />
+                    <a href='../Customize.html'>Home:Software:xTimeCard:Customize</a>
+                    
+                </span>
+                
+                <!-- !! The script will center all images. If you prefer the default (images at left delete these three lines -->    
+                <script>
+                    $( "img" ).wrap( "<div class='imgcenter'></div>" );
+                </script>
+                
+                
+            
+                <div id='footer'>
+                    <p>Created with <a href='http://zim-wiki.org/'>Zim-wiki</a> & the <a href='https://github.com/ecodiv/Ecodiv-responsive'>Ecodiv-responsive template</a><p>
+                </div>
+            </div>
+        </div>
+	</div>
+</body>
+</html>
