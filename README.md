@@ -21,12 +21,13 @@ The advanced section of this tutorial also describe how to move from a personal 
 
 ## Organization
 As you may expect xTimeCard distinguishes between:
- - settings
- - master data
-- operations
+
+![organization](Manual/xTimeCard_files/Introduction/pasted_image.png)
 
 Settings are needed for the software to know more about you, while master data refer to customers and projects and they do not change, finally operations record your work and allow to account and be paid for.
 
 
 ### Initial settings
 To get started with xTimeCard you need at least to have your employee and the price of your activities to be paid clearly defined. For the sake of simplicity xTimeCard do not feature extensive information like resources, call/info center and do not consider discounts or customer's price lists, but these optional features may be a good reason for customization.
+
+![process view](Manual/xTimeCard_files/Introduction/pasted_image001.png)
