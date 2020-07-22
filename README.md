@@ -14,7 +14,7 @@ With this software you get a full [documentation](xTimeCard.pdf) as PDF, but thi
 Any project manager face the initial difficulty of getting the structure of their project properly balanced between budget, tasks and WBSs. xTimeCard helps to have done quickly and clearly.
 
 ### Customize to your own needs
-If you download the full package You will get a manual with a step-by-step guide on how to create this software, configure and use successfully. Moreover HEXAGON used to provide support to customize for your specific needs as part the learning process, as a matter of fact LibreOffice Base was chosen as technology to allow both developers and users to customize for specif needs. 
+If you download the full package You will get a [manual](https://my-hexagon.com/editor/workspace/timecard/xTimeCard.html) with a step-by-step guide on how to create this software, configure and use successfully. Moreover HEXAGON used to provide support to customize for your specific needs as part the learning process, as a matter of fact LibreOffice Base was chosen as technology to allow both developers and users to customize for specif needs. 
 
 ### Porting and scaling
 The advanced section of this tutorial also describe how to move from a personal use to a multi-user environment, for instance integrating to a largely used database such as MySQL or connecting to a workflow based on cloud technologies like Google Apps.
